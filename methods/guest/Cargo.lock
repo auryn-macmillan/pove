@@ -690,6 +690,7 @@ version = "0.1.0"
 dependencies = [
  "fhe",
  "fhe-traits",
+ "rand",
  "risc0-zkvm",
 ]
 

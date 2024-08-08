@@ -734,6 +734,7 @@ dependencies = [
  "fhe",
  "fhe-traits",
  "methods",
+ "rand",
  "risc0-zkvm",
  "serde",
  "tracing-subscriber 0.3.18",

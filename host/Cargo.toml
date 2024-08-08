@@ -10,3 +10,4 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 serde = "1.0"
 fhe = { git = "https://github.com/gnosisguild/fhe.rs", version = "0.1.0-beta.7" }
 fhe-traits = { git = "https://github.com/gnosisguild/fhe.rs", version = "0.1.0-beta.7" }
+rand = "0.8.5"
