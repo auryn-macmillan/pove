@@ -1,12 +1,9 @@
 [package]
-name = "guest"
+name = "bfv-lib"
 version = "0.1.0"
 edition = "2021"
 
-[features]
-guest = []
-
 [dependencies]
-jolt = { package = "jolt-sdk", path = "../../../a16z/jolt/jolt-sdk", features = ["guest-std"] }
+alloy-sol-types = { workspace = true }
 fhe = { git = "https://github.com/gnosisguild/fhe.rs", version = "0.1.0-beta.7" }
 fhe-traits = { git = "https://github.com/gnosisguild/fhe.rs", version = "0.1.0-beta.7" }
